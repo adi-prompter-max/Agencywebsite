@@ -253,14 +253,9 @@ const Portfolio = () => {
             <div className='lg:h-93.5'>
               <div className={cn('overflow-hidden rounded-[12px] border shadow-sm group-hover:rotate-3')}>
                 <img
-                  src='/images/portfolio/image-01.webp'
-                  alt="Lay's wafer project"
-                  className='w-full rounded-[12px] lg:h-93.5 lg:object-center dark:hidden'
-                />
-                <img
-                  src='/images/portfolio/image-01-dark.webp'
-                  alt="Lay's wafer project"
-                  className='hidden w-full rounded-[12px] lg:h-93.5 lg:object-center dark:block'
+                  src='/images/portfolio/emoteCare.png'
+                  alt='emote Care project'
+                  className='w-full rounded-[12px] lg:h-93.5 lg:object-center'
                 />
               </div>
             </div>
@@ -271,8 +266,8 @@ const Portfolio = () => {
               className='-z-1 flex items-center justify-between gap-4 md:gap-6'
             >
               <div className='flex flex-col gap-2.5'>
-                <span className='text-2xl font-semibold'>NovaCare Health</span>
-                <span className='text-muted-foreground text-lg'>AI-Powered Health Platform</span>
+                <span className='text-2xl font-semibold'>emote Care</span>
+                <span className='text-muted-foreground text-lg'>Online Mental Health Marketplace</span>
               </div>
 
               <Button
@@ -297,8 +292,8 @@ const Portfolio = () => {
             <div className='lg:h-93.5'>
               <div className={cn('overflow-hidden rounded-[12px] border shadow-sm group-hover:-rotate-3')}>
                 <img
-                  src='/images/portfolio/image-02.webp'
-                  alt='Just Website project'
+                  src='/images/portfolio/Neoteric.png'
+                  alt='Neoteric project'
                   className='w-full rounded-[12px] lg:h-93.5 lg:object-center'
                 />
               </div>
@@ -310,7 +305,7 @@ const Portfolio = () => {
               className='-z-1 flex items-center justify-between gap-4 md:gap-6'
             >
               <div className='flex flex-col gap-2.5'>
-                <span className='text-2xl font-semibold'>Finova Analytics</span>
+                <span className='text-2xl font-semibold'>Neoteric</span>
                 <span className='text-muted-foreground text-lg'>Data Pipeline & Dashboard</span>
               </div>
 
@@ -336,8 +331,8 @@ const Portfolio = () => {
             <div className='lg:h-93.5'>
               <div className={cn('overflow-hidden rounded-[12px] border shadow-sm group-hover:rotate-3')}>
                 <img
-                  src='/images/portfolio/image-03.webp'
-                  alt='Astro AI project'
+                  src='/images/portfolio/Pitchtovc.png'
+                  alt='Pitchtovc project'
                   className='w-full rounded-[12px] lg:h-93.5 lg:object-center'
                 />
               </div>
@@ -348,7 +343,7 @@ const Portfolio = () => {
               className='-z-1 flex items-center justify-between gap-4 md:gap-6'
             >
               <div className='flex flex-col gap-2.5'>
-                <span className='text-2xl font-semibold'>Vertex AI Studio</span>
+                <span className='text-2xl font-semibold'>PitchtoVC</span>
                 <span className='text-muted-foreground text-lg'>Full-Stack AI Product</span>
               </div>
 
@@ -374,14 +369,9 @@ const Portfolio = () => {
             <div className='lg:h-93.5'>
               <div className={cn('overflow-hidden rounded-[12px] border shadow-sm group-hover:-rotate-3')}>
                 <img
-                  src='/images/portfolio/image-04.webp'
-                  alt='John Doe project'
-                  className='w-full rounded-[12px] lg:h-93.5 lg:object-center dark:hidden'
-                />
-                <img
-                  src='/images/portfolio/image-04-dark.webp'
-                  alt='John Doe project'
-                  className='hidden w-full rounded-[12px] lg:h-93.5 lg:object-center dark:block'
+                  src='/images/portfolio/Kundra.svg'
+                  alt='Kundra project'
+                  className='w-full rounded-[12px] lg:h-93.5 lg:object-center'
                 />
               </div>
             </div>
@@ -392,8 +382,8 @@ const Portfolio = () => {
               className='-z-1 flex items-center justify-between gap-4 md:gap-6'
             >
               <div className='flex flex-col gap-2.5'>
-                <span className='text-2xl font-semibold'>Meridian Commerce</span>
-                <span className='text-muted-foreground text-lg'>E-Commerce Redesign</span>
+                <span className='text-2xl font-semibold'>Kundra</span>
+                <span className='text-muted-foreground text-lg'>Parental Leave Business Planning</span>
               </div>
 
               <Button

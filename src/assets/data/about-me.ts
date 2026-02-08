@@ -1,7 +1,7 @@
 export const aboutData = {
   name: 'Craft Agency',
   role: 'AI-Powered Product Studio',
-  image: '/images/profile/image-01.webp',
+  image: '/images/profile/GautamChauhan.jpeg',
   imageAlt: 'Craft Agency - AI-Powered Product Studio',
   availableForHire: true,
   socialLinks: [

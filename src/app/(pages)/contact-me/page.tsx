@@ -59,7 +59,7 @@ export const metadata: Metadata = {
 const contactInfo = {
   name: 'Craft Agency',
   role: 'AI-Powered Product Studio',
-  image: '/images/profile/image-01.webp',
+  image: '/images/profile/GautamChauhan.jpeg',
   availability: 'Accepting Projects',
   social: {
     instagram: 'https://www.instagram.com/',

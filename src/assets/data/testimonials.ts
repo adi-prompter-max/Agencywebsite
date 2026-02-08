@@ -7,7 +7,7 @@ export const reviews: ReviewCard[] = [
     fallback: 'MC',
     name: 'Marley Calzoni',
     designation: 'CTO',
-    company: 'NovaCare Health',
+    company: 'emote Care',
     rating: 4.5,
     message:
       'They handled everything from our design system to the data pipeline. Having one team own the entire stack made our launch 3x faster than expected.'
@@ -18,7 +18,7 @@ export const reviews: ReviewCard[] = [
     fallback: 'TS',
     name: 'Tony Stark',
     designation: 'CEO & Co Founder',
-    company: 'Finova Analytics',
+    company: 'Neoteric',
     rating: 5,
     message:
       'The AI integration they built transformed our product. Their team understood both the technical and strategic sides, which is incredibly rare to find in one agency.'
@@ -29,7 +29,7 @@ export const reviews: ReviewCard[] = [
     fallback: 'BW',
     name: 'Bruce Wayne',
     designation: 'VP of Product',
-    company: 'Meridian Commerce',
+    company: 'Kundra',
     rating: 3.5,
     message:
       'From UX research to backend architecture, they delivered a complete platform overhaul. The end-to-end approach eliminated the coordination overhead we had with multiple vendors.'
