@@ -3,13 +3,13 @@ import Portfolio from '@/components/blocks/portfolio/portfolio'
 import Services from '@/components/blocks/services/services'
 import AboutMe from '@/components/blocks/about-me/about-me'
 import Projects from '@/components/blocks/projects/projects'
-import Experience from '@/components/blocks/experience/experience'
+
 import Testimonials from '@/components/blocks/testimonials/testimonials'
 
 import { uiImages, framerImages, skills } from '@/assets/data/services'
 import { aboutData } from '@/assets/data/about-me'
 import { reviews } from '@/assets/data/testimonials'
-import { experienceData } from '@/assets/data/experience'
+
 
 // Hero Avatar
 const avatars = [
@@ -58,7 +58,7 @@ const Home = () => {
       <Portfolio />
       <Services uiImages={uiImages} framerImages={framerImages} skills={skills} />
       <AboutMe {...aboutData} />
-      <Experience experienceData={experienceData} />
+
       <Projects />
       <Testimonials reviews={reviews} />
 

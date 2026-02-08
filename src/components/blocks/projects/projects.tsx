@@ -82,7 +82,7 @@ const Projects = () => {
                   <span className='flex items-center'>
                     <img src='/images/project/image-10.webp' alt='shadcn studio' className='m-8 size-10 dark:invert' />
                     <div className='flex flex-col gap-1.5 border-l px-2.5 py-5 text-xl'>
-                      <span className='font-semibold'>AI Health Platform</span>
+                      <span className='font-semibold'>emote Care</span>
                       <div className='text-muted-foreground flex items-center gap-3 font-normal'>
                         <span>4 Months</span>
                         <Separator
@@ -96,40 +96,37 @@ const Projects = () => {
                 </AnimatedChevronsAccordionTrigger>
                 <AnimatedChevronsAccordionContent className='text-muted-foreground space-y-6 px-8 py-5 text-base'>
                   <p>
-                    Built an end-to-end AI-powered health platform for a telehealth startup. We owned the entire
-                    product lifecycle: UX research and patient journey mapping, a React Native mobile app,
-                    a Next.js provider dashboard, Python-based ML models for symptom triage, and real-time
-                    data pipelines connecting wearable devices to clinical workflows. The platform reduced
-                    average diagnosis time by 40% and scaled to handle 50K+ daily active users.
+                    Built the online mental health marketplace for emote Care, a UK-based pay-as-you-go platform
+                    connecting clients with therapists. We designed and developed the full platform: therapist
+                    discovery and matching, session scheduling and payments, free introductory call booking,
+                    and wellbeing resources. The platform enabled accessible, flexible therapy without long-term
+                    commitments.
                   </p>
 
                   <div className='flex flex-col gap-5'>
                     <div>
-                      <span className='text-foreground font-medium'>🧠 AI Symptom Triage: </span>
+                      <span className='text-foreground font-medium'>🔍 Therapist Discovery: </span>
                       <span>
-                        Custom NLP models that analyze patient-reported symptoms and surface relevant clinical
-                        pathways for providers in real-time.
+                        Smart matching system helping clients find suitable, trusted therapists based on their needs
+                        and preferences.
                       </span>
                     </div>
                     <div>
-                      <span className='text-foreground font-medium'>📱 Cross-Platform Apps: </span>
+                      <span className='text-foreground font-medium'>📅 Scheduling & Payments: </span>
                       <span>
-                        React Native patient app and Next.js provider dashboard with shared design system and
-                        real-time sync.
+                        Seamless booking system with pay-as-you-go sessions and free introductory call support.
                       </span>
                     </div>
                     <div>
-                      <span className='text-foreground font-medium'>📊 Data Pipeline: </span>
+                      <span className='text-foreground font-medium'>💚 Wellbeing Resources: </span>
                       <span>
-                        Event-driven architecture ingesting wearable data, transforming it through ML models,
-                        and surfacing actionable insights.
+                        Curated mental health content and resources to support clients between therapy sessions.
                       </span>
                     </div>
                     <div>
-                      <span className='text-foreground font-medium'>🔒 HIPAA Compliance: </span>
+                      <span className='text-foreground font-medium'>🤝 Help Someone Heal: </span>
                       <span>
-                        End-to-end encryption, audit logging, and infrastructure design meeting healthcare
-                        regulatory requirements.
+                        Initiative to increase access to therapy for those who need it most.
                       </span>
                     </div>
                   </div>
@@ -162,7 +159,7 @@ const Projects = () => {
                   <span className='flex items-center'>
                     <img src='/images/project/image-09.webp' alt='flyonui' className='m-8 size-10' />
                     <div className='flex flex-col gap-1.5 border-l px-2.5 py-5 text-xl'>
-                      <span className='font-semibold'>Finova Analytics</span>
+                      <span className='font-semibold'>Neoteric</span>
                       <div className='text-muted-foreground flex items-center gap-3 font-normal'>
                         <span>5 Months</span>
                         <Separator
@@ -176,36 +173,34 @@ const Projects = () => {
                 </AnimatedChevronsAccordionTrigger>
                 <AnimatedChevronsAccordionContent className='text-muted-foreground space-y-6 px-8 py-5 text-base'>
                   <p>
-                    Designed and built a complete analytics platform for a fintech company. We handled everything
-                    from UX design of complex data visualizations to building the real-time data pipelines
-                    that power them. The backend processes 10M+ events daily through a streaming architecture,
-                    while the Next.js dashboard delivers sub-second query responses with interactive charts
-                    and AI-powered anomaly detection.
+                    Designed and developed Neoteric's digital platform from concept to launch. We handled the
+                    full product lifecycle including brand identity, UX/UI design, front-end development,
+                    and backend architecture to deliver a modern, scalable product that stands out in the market.
                   </p>
 
                   {/* Features */}
                   <div className='flex flex-col gap-5'>
                     <div>
-                      <span className='text-foreground font-medium'>📊 Real-Time Dashboards: </span>
+                      <span className='text-foreground font-medium'>🎨 Brand Identity: </span>
                       <span>
-                        Interactive data visualizations with drill-down capabilities, built with D3.js and React.
+                        Complete brand strategy and visual identity system designed from the ground up.
                       </span>
                     </div>
                     <div>
-                      <span className='text-foreground font-medium'>🔄 Streaming Data Pipeline: </span>
+                      <span className='text-foreground font-medium'>💻 Full-Stack Development: </span>
                       <span>
-                        Event-driven architecture processing 10M+ daily events with Kafka, Flink, and PostgreSQL.
+                        Modern web application built with scalable architecture and responsive design.
                       </span>
                     </div>
                     <div>
-                      <span className='text-foreground font-medium'>🤖 AI Anomaly Detection: </span>
+                      <span className='text-foreground font-medium'>🎯 UX/UI Design: </span>
                       <span>
-                        Custom ML models that flag unusual patterns in financial data and surface alerts automatically.
+                        User-centered design process with research, prototyping, and iterative testing.
                       </span>
                     </div>
                     <div>
-                      <span className='text-foreground font-medium'>🔐 Enterprise Security: </span>
-                      <span>Role-based access control, SOC 2 compliance, and end-to-end audit trails.</span>
+                      <span className='text-foreground font-medium'>🚀 Launch Strategy: </span>
+                      <span>End-to-end product launch support from development to deployment.</span>
                     </div>
                   </div>
 
@@ -237,7 +232,7 @@ const Projects = () => {
                   <span className='flex items-center'>
                     <img src='/images/project/image-08.webp' alt='jetship' className='m-8 size-10' />
                     <div className='flex flex-col gap-1.5 border-l px-2.5 py-5 text-xl'>
-                      <span className='font-semibold'>Vertex AI Studio</span>
+                      <span className='font-semibold'>PitchtoVC</span>
                       <div className='text-muted-foreground flex items-center gap-3 font-normal'>
                         <span>6 Months</span>
                         <Separator
@@ -252,38 +247,34 @@ const Projects = () => {
 
                 <AnimatedChevronsAccordionContent className='text-muted-foreground space-y-6 px-8 py-5 text-base'>
                   <p>
-                    Built a comprehensive AI content studio for a media company. The platform combines LLM-powered
-                    content generation, automated editing workflows, and a publishing pipeline that serves
-                    personalized content across web, mobile, and email channels. We designed the UX for complex
-                    AI-assisted workflows, built the React front-end, Node.js APIs, and Python ML services,
-                    and implemented the data infrastructure for content analytics and personalization.
+                    Built PitchtoVC, a platform helping founders craft compelling pitch decks and connect
+                    with venture capitalists. We designed the full user experience, developed the web application,
+                    and implemented tools that help startups refine their narratives and present their vision
+                    effectively to investors.
                   </p>
 
                   {/* Features */}
                   <div className='flex flex-col gap-5'>
                     <div>
-                      <span className='text-foreground font-medium'>✍️ AI Content Generation: </span>
+                      <span className='text-foreground font-medium'>📊 Pitch Deck Builder: </span>
                       <span>
-                        LLM-powered writing assistant with brand voice training, tone adjustment, and
-                        multi-format output.
+                        Intuitive tools for founders to create, refine, and polish investor-ready pitch decks.
                       </span>
                     </div>
                     <div>
-                      <span className='text-foreground font-medium'>🔄 Automated Workflows: </span>
-                      <span>End-to-end editorial pipeline from draft to review to publish with approval gates.</span>
+                      <span className='text-foreground font-medium'>🤝 VC Matching: </span>
+                      <span>Connecting startups with relevant venture capitalists based on industry and stage.</span>
                     </div>
                     <div>
-                      <span className='text-foreground font-medium'>🎯 Personalization Engine: </span>
+                      <span className='text-foreground font-medium'>💡 Narrative Coaching: </span>
                       <span>
-                        ML-driven content recommendations that adapt based on user behavior and engagement
-                        patterns.
+                        Guided workflows to help founders structure their story and highlight key metrics.
                       </span>
                     </div>
                     <div>
-                      <span className='text-foreground font-medium'>📈 Content Analytics: </span>
+                      <span className='text-foreground font-medium'>🚀 Investor Dashboard: </span>
                       <span>
-                        Real-time dashboards tracking engagement, conversion, and content performance across
-                        all channels.
+                        Clean interface for VCs to discover, review, and track promising startups.
                       </span>
                     </div>
                   </div>
@@ -316,7 +307,7 @@ const Projects = () => {
                   <span className='flex items-center'>
                     <img src='/images/project/image-07.webp' alt='themeselection' className='m-8 size-10' />
                     <div className='flex flex-col gap-1.5 border-l px-2.5 py-5 text-xl'>
-                      <span className='font-semibold'>Meridian Commerce</span>
+                      <span className='font-semibold'>Kundra</span>
                       <div className='text-muted-foreground flex items-center gap-3 font-normal'>
                         <span>8 Months</span>
                         <Separator
@@ -330,37 +321,36 @@ const Projects = () => {
                 </AnimatedChevronsAccordionTrigger>
                 <AnimatedChevronsAccordionContent className='text-muted-foreground space-y-6 px-8 py-5 text-base'>
                   <p>
-                    Complete platform redesign and re-architecture for a mid-market e-commerce company. We
-                    reimagined the shopping experience through UX research, rebuilt the front-end with Next.js
-                    for performance, migrated the backend to a microservices architecture, and implemented
-                    AI-powered product recommendations that increased average order value by 35%.
+                    Built Kundra's platform to help businesses anticipate and manage the operational impacts
+                    of parental leave. We designed and developed the full solution: secure handover workflows,
+                    objective protection planning, and team workload management — ensuring business continuity
+                    without overburdening teams.
                   </p>
 
                   {/* Features */}
                   <div className='flex flex-col gap-5'>
                     <div>
-                      <span className='text-foreground font-medium'>🛍️ UX-Driven Redesign: </span>
+                      <span className='text-foreground font-medium'>📋 Handover Workflows: </span>
                       <span>
-                        Complete shopping experience overhaul based on user research, A/B testing, and conversion
-                        optimization.
+                        Structured processes ensuring smooth knowledge transfer and responsibility delegation before leave.
                       </span>
                     </div>
 
                     <div>
-                      <span className='text-foreground font-medium'>⚡ Performance-First Frontend: </span>
+                      <span className='text-foreground font-medium'>🎯 Objective Protection: </span>
                       <span>
-                        Next.js storefront with ISR, edge caching, and optimized Core Web Vitals scoring 95+ on Lighthouse.
+                        Tools to map business objectives at risk and create mitigation plans well in advance.
                       </span>
                     </div>
 
                     <div>
-                      <span className='text-foreground font-medium'>🤖 AI Recommendations: </span>
-                      <span>Collaborative filtering and NLP-based product recommendations driving 35% higher AOV.</span>
+                      <span className='text-foreground font-medium'>👥 Team Workload Management: </span>
+                      <span>Smart redistribution planning to prevent team overload during parental leave periods.</span>
                     </div>
 
                     <div>
-                      <span className='text-foreground font-medium'>🏗️ Microservices Migration: </span>
-                      <span>Monolith-to-microservices migration with zero-downtime deployment and auto-scaling.</span>
+                      <span className='text-foreground font-medium'>📊 Impact Dashboard: </span>
+                      <span>Clear visibility into operational impact and readiness status for managers and HR teams.</span>
                     </div>
                   </div>
 

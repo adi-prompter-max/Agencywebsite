@@ -253,7 +253,7 @@ const Portfolio = () => {
             <div className='lg:h-93.5'>
               <div className={cn('overflow-hidden rounded-[12px] border shadow-sm group-hover:rotate-3')}>
                 <img
-                  src='/images/portfolio/emoteCare.png'
+                  src='/images/portfolio/emoteCare.jpeg'
                   alt='emote Care project'
                   className='w-full rounded-[12px] lg:h-93.5 lg:object-center'
                 />
